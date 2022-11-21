@@ -265,3 +265,18 @@ li{
     z-index: 1;
     max-width: 400px;
 }
+
+/* footer */
+
+.footer{
+    background-color: #80AC7B;
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat';
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
