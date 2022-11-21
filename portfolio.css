@@ -76,7 +76,7 @@ body{
     bottom: 190px;
 }
 
-li{
+.jumbotron .jumbotron-left li{
     list-style-type: none;
 }
 
@@ -265,6 +265,41 @@ li{
     z-index: 1;
     max-width: 400px;
 }
+
+/* contact section*/
+.contact{
+    padding: 100px 400px 100px 400px;
+    font-family: 'Montserrat';
+    color: #80AC7B;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.contact .line {
+    border-top: 1px solid white;
+    width: 400px;
+    background-color: #373331;
+    margin-left: 10px;
+}
+
+.contact button{
+    background-color: #373331;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+
+}
+
+.contact button:hover{
+    background-color: #373331;
+    opacity: 0.5;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid white;
+}
+
 
 /* footer */
 
